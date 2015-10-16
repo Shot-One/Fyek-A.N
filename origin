@@ -1,0 +1,36 @@
+<html>
+<button onclick="theseMf()">touch me😳</button>
+<script>
+function theseMf(){
+var them = prompt("What's your name?");
+switch(them.toLowerCase()){
+case 'o':
+alert("fuck you pos mf");
+break;
+case 'jeff':
+alert("💚");
+break;
+case 'kevin':
+alert("stfu");
+alert("jkjkikidkevin😉");
+break;
+case 'rui':
+alert("Hi, Rooee 😏🎵");
+break;
+case 'tyrion':
+alert("lol no tyrone");
+break;
+case 'tyrone':
+alert("3 fiddy");
+break;
+case 'max':
+alert("What's up, Max");
+break;
+case 'eric':
+alert("Stop breaking hearts, Eric!");
+break;
+default:
+alert("wot");
+}} 
+</script>
+</html>
