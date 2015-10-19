@@ -1,69 +1,127 @@
 <html>
-<button onclick="theseMf()">touch me😳</button>
-<script>
-function theseMf(){
-var them = prompt("What's your name?");
-switch(them.toLowerCase()){
-case 'o':
-alert("fuck you pos mf");
-break;
-case 'jeff':
-alert("💚");
-break;
-case 'kevin':
-alert("stfu");
-alert("jkjkikidkevin😉");
-break;
-case 'rui':
-alert("Hi, Rooee 😏🎵");
-break;
-case 'tyrion':
-alert("lol no tyrone");
-break;
-case 'tyrone':
-alert("3 fiddy");
-break;
-case 'max':
-alert("What's up, Max");
-break;
-case 'eric':
-alert("Stop breaking hearts, Eric!");
-break;
-case 'god':
-alert("Yes?");
-break;
-case 'satan':
-alert("stfu");
-break;
-case 'gemma':
-alert("pft");
-break;
-case 'erick':
-alert("fyek af");
-break;
-case 'rai':
-alert("What's wrong with Lagik");
-break;
-case 'pl0x':
-alert("b0ss");
-break;
-case 'yo':
-alert("lo");
-break;
-case 'atheist':
-alert("Join #Atheist0 on Kik. The Originals of #Atheist");
-break;
-case 'hi':
-alert("Join #New on Kik (Rules Apply)");
-break;
-case 'omar':
-alert("I heard you like men in skirts");
-break;
-case 'eser':
-alert("What they call him since oh-6");
-break;
-default:
-alert("wot");
-}} 
-</script>
+    <div>
+        <img class=change src="http://lorempixel.com/400/200/" style='width:480px;' />
+    </div>
+    <button onclick="these()">press</button>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script>
+        var images = ["http://gimp.open-source-solution.org/manual/images/filters/examples/color-taj-sample-colorize.jpg"];
+
+        $(function() {
+            index = 0;
+            $('.change').click(function(e) {
+                var image = images[index];
+                index++;
+                if (index == images.length) index = 0;
+                $('.change').parent().fadeOut(500, function() {
+                    $('.change').attr('src', image);
+                });
+            });
+        });
+        ////
+        function these() {
+            var them = prompt("What's your name?");
+            switch (them.toLowerCase()) {
+                case 'o':
+                    alert("k");
+                    break;
+                case 'jeff':
+                    alert("💚");
+                    break;
+                case 'kevin':
+                    alert("stfu");
+                    alert("jkjkikidkevin😉");
+                    break;
+                case 'rui':
+                    alert("Hi, Rooee 😏🎵");
+                    break;
+                case 'tyrion':
+                    alert("lol no tyrone");
+                    break;
+                case 'tyrone':
+                    alert("3 fiddy");
+                    break;
+                case 'max':
+                    alert("What's up, Max");
+                    break;
+                case 'eric':
+                    alert("Stop breaking hearts, Eric!");
+                    break;
+                    //
+                case 'god':
+                    alert("Yes?");
+                    break;
+                case 'satan':
+                    alert("stfu");
+                    break;
+                case 'gemma':
+                    alert("pft");
+                    break;
+                case 'erick':
+                    alert("FRAUD");
+                    break;
+                case 'rai':
+                    alert("What's wrong with Lagik");
+                    break;
+                    ///
+                case 'pl0x':
+                    alert("b0ss");
+                    break;
+                case 'yo':
+                    alert("lo");
+                    break;
+                case 'atheist':
+                    alert("Join #Atheist0 on Kik. The Originals of #Atheist");
+                    break;
+                case 'hi':
+                    alert("Join #New on Kik (Rules Apply)");
+                    break;
+                case 'omar':
+                    alert("I heard you like men in skirts");
+                    break;
+                case 'eser':
+                    alert("What they call him since oh-6");
+                    break;
+                    ////
+                default:
+                case 'kik':
+                    alert("Coming Soon");
+                    break;
+                case 'lol':
+                    alert("Kek");
+                    break;
+                case 'kek':
+                    alert("lolol");
+                    break;
+                case 'game':
+                    alert("The one you lose after you think about it.");
+                    break;
+                case 'k':
+                    alert("...");
+                    break;
+                case 'the game':
+                    alert("The one you lose after you think about it.");
+                    break;
+                case 'wot':
+                    alert("I ran out of things to say.");
+                    break;
+                case 'life':
+                    alert("give it to me");
+                    break;
+                case '?':
+                    alert("(._. )");
+                    break;
+                case '!':
+                    alert("( ._.)");
+                    break;
+                case 'fuck you':
+                    alert("lok");
+                    break;
+                    /////
+                default:
+                    alert("wot");
+            }
+        }
+    </script>
+
 </html>
